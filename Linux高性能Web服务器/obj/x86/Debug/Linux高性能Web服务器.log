@@ -1,0 +1,74 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.88.131”
+  正在验证体系结构
+  正在验证体系结构
+D:\visualstudio2019\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(202,5): warning : 当前项目体系结构“x86”不兼容远程系统体系结构“x64”(“x64”)。请在 Configuration Manager 中将项目体系结构切换为“x64”。如果正在交叉编译，可以忽略此警告。
+  正在启动远程生成
+  正在编译源:
+  http_conn.cpp
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(256,20): warning : multi-character character constant [-Wmultichar]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(256,20): warning :    else if (temp == '/n')//�����������һ���ж���������Ϊ\n�п��ܳ����ڵ�һ���ֽڵ�λ��
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(256,20): warning :                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(111,88): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(111,88): warning :    bytes_read = recv(m_sockfd, m_read_buf + m_read_idx, READ_BUFFER_SIZE - m_read_idx, 0);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(111,88): warning :                                                                                         ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(376,31): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(376,31): warning :    m_content_length = atol(text);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(376,31): warning :                                ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(414,27): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(414,27): warning :   int len = strlen(doc_root);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(414,27): warning :                            ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(473,43): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(473,43): warning :    temp = writev(m_sockfd, m_iv, m_iv_count);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(473,43): warning :                                            ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(544,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(544,1): warning :  }
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(544,1): warning :  ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(573,36): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(573,36): warning :    add_headers(strlen(error_500_form));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(573,36): warning :                                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(583,36): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(583,36): warning :    add_headers(strlen(error_400_form));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(583,36): warning :                                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(593,36): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(593,36): warning :    add_headers(strlen(error_404_form));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(593,36): warning :                                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(603,36): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(603,36): warning :    add_headers(strlen(error_403_form));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(603,36): warning :                                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(615,35): warning : conversion to ‘int’ from ‘__off_t {aka long int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(615,35): warning :     add_headers(m_file_stat.st_size);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(615,35): warning :                                    ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(626,32): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(626,32): warning :     add_headers(strlen(ok_string));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(626,32): warning :                                 ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(220,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(220,1): warning :  }
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(220,1): warning :  ^
+  main.cpp
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(90,31): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(90,31): warning :   address.sin_port = htons(port);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(90,31): warning :                                ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(77,6): warning : unused variable ‘user_count’ [-Wunused-variable]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(77,6): warning :   int user_count = 0;
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(77,6): warning :       ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(35,7): warning : ‘threadpool<http_conn>::m_stop’ will be initialized after [-Wreorder]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(35,7): warning :   bool m_stop;/*�Ƿ�Ҫ�����߳�*/
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(35,7): warning :        ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(31,13): warning : ‘pthread_t* threadpool<http_conn>::m_threads’ [-Wreorder]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(31,13): warning :   pthread_t* m_threads;/*�����̳߳ص����飬��СΪ m_thread_number*/
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(31,13): warning :              ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(41,1): warning : when initialized here [-Wreorder]
+  正在链接对象
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\obj\x86\Debug\main.o : error : In function `sem::sem()':
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\locker.h(14): error : undefined reference to `sem_init'
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\obj\x86\Debug\main.o : error : In function `sem::~sem()':
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\locker.h(21): error : undefined reference to `sem_destroy'
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\obj\x86\Debug\main.o : error : In function `sem::wait()':
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\locker.h(25): error : undefined reference to `sem_wait'
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\obj\x86\Debug\main.o : error : In function `sem::post()':
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\locker.h(29): error : undefined reference to `sem_post'
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\obj\x86\Debug\main.o : error : In function `threadpool<http_conn>::threadpool(int, int)':
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(63): error : undefined reference to `pthread_create'
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(73): error : undefined reference to `pthread_detach'
+collect2 : error : ld returned 1 exit status

@@ -1,0 +1,1 @@
+g++ -o "/root/projects/Linux高性能Web服务器/bin/x64/Debug/Linux高性能Web服务器.out" -Wl,--no-undefined -Wl,-L"/root/projects/Linux高性能Web服务器/C/Users/pthread" -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack "/root/projects/Linux高性能Web服务器/obj/x64/Debug/http_conn.o" "/root/projects/Linux高性能Web服务器/obj/x64/Debug/main.o" -lpthread

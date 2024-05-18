@@ -1,0 +1,59 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.88.130”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  http_conn.cpp
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(113,88): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(113,88): warning :    bytes_read = recv(m_sockfd, m_read_buf + m_read_idx, READ_BUFFER_SIZE - m_read_idx, 0);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(113,88): warning :                                                                                         ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(381,31): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(381,31): warning :    m_content_length = atol(text);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(381,31): warning :                                ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(419,27): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(419,27): warning :   int len = strlen(doc_root);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(419,27): warning :                            ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(478,43): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(478,43): warning :    temp = writev(m_sockfd, m_iv, m_iv_count);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(478,43): warning :                                            ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(549,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(549,1): warning :  }
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(549,1): warning :  ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(579,36): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(579,36): warning :    add_headers(strlen(error_500_form));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(579,36): warning :                                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(590,36): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(590,36): warning :    add_headers(strlen(error_400_form));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(590,36): warning :                                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(600,36): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(600,36): warning :    add_headers(strlen(error_404_form));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(600,36): warning :                                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(610,36): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(610,36): warning :    add_headers(strlen(error_403_form));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(610,36): warning :                                     ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(624,35): warning : conversion to ‘int’ from ‘__off_t {aka long int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(624,35): warning :     add_headers(m_file_stat.st_size);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(624,35): warning :                                    ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(635,32): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(635,32): warning :     add_headers(strlen(ok_string));
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(635,32): warning :                                 ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(225,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(225,1): warning :  }
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\http_conn.cpp(225,1): warning :  ^
+  main.cpp
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(96,31): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(96,31): warning :   address.sin_port = htons(port);
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(96,31): warning :                                ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(83,6): warning : unused variable ‘user_count’ [-Wunused-variable]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(83,6): warning :   int user_count = 0;
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\main.cpp(83,6): warning :       ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(44,7): warning : ‘threadpool<http_conn>::m_stop’ will be initialized after [-Wreorder]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(44,7): warning :   bool m_stop;/*�Ƿ�Ҫ�����߳�*/
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(44,7): warning :        ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(40,13): warning : ‘pthread_t* threadpool<http_conn>::m_threads’ [-Wreorder]
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(40,13): warning :   pthread_t* m_threads;/*�����̳߳ص����飬��СΪ m_thread_number*/
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(40,13): warning :              ^
+D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\threadpool.h(51,1): warning : when initialized here [-Wreorder]
+  正在链接对象
+  Linux高性能Web服务器.vcxproj -> D:\学习\visual stuodio 项目\项目\Linux高性能Web服务器\bin\x64\Debug\Linux高性能Web服务器.out
